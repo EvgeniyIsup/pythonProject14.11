@@ -23,6 +23,7 @@
 #             if arr[z] < arr[z + 1]:
 #                 arr[z], arr[z + 1] = arr[z + 1], arr[z]
 # arr = arrRandmizer(10000)
+
 # startTime = time.time()
 # bubleSort(arr)
 # endTime = time.time()
@@ -57,6 +58,7 @@ def insertion_sort(arr):
 #     print (arr[i])
 
 arr = arrRandmizer(10000)
+
 startTime = time.time()
 insertion_sort(arr)
 endTime = time.time()
